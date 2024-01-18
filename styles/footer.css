@@ -1,61 +1,44 @@
 .footer {
     background-color: var(--bg-color);
     padding: 4rem 1rem;
-    font-size: 0.8rem;
+    font-size: 2rem;
     margin-bottom: 0;
 }
 
-.footer__logos__container {
+.footer .footer__section {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.footer .footer__section .footer__logos {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.footer__logos__container ul {
-    padding: 0;
-}
-
-.footer__img__items {
-    display: grid;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    grid-template-columns: 55% repeat(2, 1fr);
-    margin: 0 auto;
-    gap: 10px;
-
-}
-
-.footer__img__items li {
     list-style: none;
+    padding: 0;
     margin: 0;
+    gap: 30px;
 }
 
-.footer__logo {
-    width: 100%;
+.footer .footer__section .footer__logos figure {
+    padding: 0;
     margin: 0;
-}
-
-.footer__logo img {
-    padding-left: 0;
-    width: 90%;
-}
-
-.footer__social {
-    font-size: 3rem;
-    color: var(--main-text-color);
     width: 100%;
 }
 
-.footer__social a {
-    color: var(--main-text-color);
-    text-decoration: none;
+.footer .footer__section .footer__logos img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
 }
 
-.footer__copyright {
-    display: block;
-    width: 70%;
-    font-size: .9rem;
-    margin: 0 auto;
+.footer .footer__section .footer__logos .footer__social__icon i {
+    color: var(--main-text-color);
+    font-size: 2.9rem;
+}
+
+.footer .footer__section .footer__copyright {
     text-align: center;
+    font-size: 0.8rem;
 }
