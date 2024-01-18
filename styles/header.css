@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .header .header__image {
@@ -28,11 +28,17 @@
     }
 }
 
-
 .header .header__nav .header__nav__list {
     list-style: none;
     color: var(--main-text-color);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    padding: 1rem;
+    gap: 30px;
+}
+
+.header .header__nav .header__nav__list .header__nav__list__item a {
+    color: var(--main-text-color);
+    text-decoration: none;
 }
