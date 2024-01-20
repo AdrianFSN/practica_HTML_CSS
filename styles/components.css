@@ -14,5 +14,6 @@
     color: var(--main-text-color);
     text-decoration: none;
     font-weight: bolder;
+    border-radius: 3px;
     padding: 1rem;
 }
