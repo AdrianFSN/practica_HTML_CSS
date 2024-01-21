@@ -34,18 +34,18 @@
 .main .main__section__skills .main__section__skills__container {
     padding: 1rem;
     background-color: var(--bg-color);
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .main .main__section__skills .main__section__skills__container .main__section__skills__black__bar {
     background-color: var(--main-text-color);
     padding: 0.2rem;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .main .main__section__skills .main__section__skills__container .main__section__skills__black__bar .main__section__skills__red__bar {
     background-color: var(--main-brand-color);
-    border-radius: 3px;
+    border-radius: 10px;
     height: 1.2rem;
     width: 97%;
 }
@@ -58,6 +58,21 @@
     0% {
         width: 0%;
         background-color: var(--bg-color);
+    }
+
+    80% {
+        width: 100%;
+        background-color: var(--main-brand-color);
+    }
+
+    90% {
+        width: 95%;
+        background-color: var(--main-brand-color);
+    }
+
+    95% {
+        width: 98%;
+        background-color: var(--main-brand-color);
     }
 
     100% {
