@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.main .main__section__skills__intro {
+    padding: 2rem;
+}
+
 .main .main__section__bio {
     display: block;
     margin: 0;
@@ -59,6 +63,10 @@
     width: 97%;
 }
 
+.estrategia {
+    width: 95%;
+}
+
 .python {
     width: 75%;
 }
@@ -68,7 +76,7 @@
 }
 
 
-.progress__bar__creatividad.creatividad {
+.progress__bar__creatividad {
     animation: progress__bar__creatividad 2s ease-in;
 }
 
@@ -84,7 +92,7 @@
 
     90% {
         width: 95%;
-        background-color: var(--main-brand-color);
+
     }
 
     95% {
@@ -95,6 +103,34 @@
         width: 97%;
     }
 
+}
+
+.progress__bar__estrategia {
+    animation: progress__bar__estrategia 2s ease-in;
+}
+
+@keyframes progress__bar__estrategia {
+    0% {
+        width: 0%;
+        background-color: var(--bg-color);
+    }
+
+    80% {
+        width: 99%;
+    }
+
+    90% {
+        width: 93%;
+
+    }
+
+    95% {
+        width: 98%;
+    }
+
+    100% {
+        width: 95%;
+    }
 }
 
 .progress__bar__python {
@@ -181,6 +217,10 @@
         width: 100%;
 
     }
+
+    .main .main__section__skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (width > 1024px) {
@@ -206,6 +246,10 @@
     .main .main__section__bio .main__info__picture img {
         width: 100%;
 
+    }
+
+    .main .main__section__skills {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
