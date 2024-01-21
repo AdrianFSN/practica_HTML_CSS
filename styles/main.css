@@ -23,14 +23,14 @@
 }
 
 .main .main__section__bio .main__info__picture img {
-    background-color: var(--main-text-color);
+    background: var(--main-text-color);
     border-radius: 3px;
     padding: 0;
 
 }
 
 .main .main__section__skills {
-    background-color: var(--main-brand-color);
+    background: var(--main-brand-color);
     margin: 0;
     padding: 1rem;
     display: grid;
