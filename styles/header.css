@@ -1,12 +1,13 @@
 .header {
     background-color: var(--bg-color);
+    /* background: linear-gradient(79deg, rgba(238,235,208,1) 29%, rgba(0,0,0,1) 100%); */
     position: sticky;
     top: 0;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #000;
     display: flex;
     padding: 3rem 2rem;
+    box-shadow: 0px 0px 11px 0px #CFCC98;
 }
 
 .header .header__image {
