@@ -33,6 +33,7 @@
     background: var(--main-brand-color);
     margin: 0;
     padding: 1rem;
+    list-style: none;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
