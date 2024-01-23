@@ -6,24 +6,34 @@
 
 .main .main__section__skills__intro {
     padding: 2rem;
+    padding-bottom: 0;
+    /* margin: 0; */
+}
+
+.main .main__section__skills__intro h2 {
+    margin-bottom: 1rem;
 }
 
 .main .main__section__bio {
     display: block;
+    padding: 0;
     margin: 0;
     text-align: justify;
 }
 
-.main .main__section__bio .main__info__bio {
+.main .main__section__bio .main__info__bio .main__info__bio__text {
     padding: 2rem;
 }
 
 .main .main__section__bio .main__info__bio h1 {
     margin: 0;
+    background: var(--main-brand-color);
+    padding-right: 2rem;
+    text-align: right;
 }
 
-.main .main__section__bio .main__info__picture img {
-    background: var(--main-text-color);
+.main .main__section__bio .main__info__picture {
+    background: rgba(0, 0, 0, 0.95);
     border-radius: 3px;
     padding: 0;
 
@@ -194,28 +204,19 @@
 }
 
 @media (width > 768px) {
-    .main .main__section__bio {
-        display: flex;
-        width: 100%;
-        padding-top: 1rem;
-    }
-
-    .main .main__section__bio .main__info__bio {
-        display: block;
-        padding-top: 0;
-        width: 50%;
-    }
 
     .main .main__section__bio .main__info__picture {
         display: block;
         padding-right: 1rem;
-        width: 50%;
+        margin: 0 auto;
+        width: 100%;
     }
 
 
     .main .main__section__bio .main__info__picture img {
-
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
 
     }
 
@@ -225,27 +226,18 @@
 }
 
 @media (width > 1024px) {
-    .main .main__section__bio {
-        display: flex;
-        width: 100%;
-        padding-top: 1rem;
-    }
-
-    .main .main__section__bio .main__info__bio {
-        display: block;
-        padding-top: 0;
-        width: 50%;
-    }
-
     .main .main__section__bio .main__info__picture {
         display: block;
         padding-right: 1rem;
-        width: 50%;
+        margin: 0 auto;
+        width: 100%;
     }
 
 
     .main .main__section__bio .main__info__picture img {
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
 
     }
 
@@ -255,24 +247,19 @@
 }
 
 @media (width > 1440px) {
-    .main .main__section__bio {
-        display: flex;
-        width: 100%;
-        padding-top: 1rem;
-    }
-
-    .main .main__section__bio .main__info__bio {
-        display: block;
-        padding-top: 0;
-        text-align: left;
-        width: 100%;
-    }
-
     .main .main__section__bio .main__info__picture {
         display: block;
         padding-right: 1rem;
-        text-align: right;
-        width: 70%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .main .main__section__bio .main__info__picture img {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+
     }
 
 
