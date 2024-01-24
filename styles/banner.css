@@ -1,0 +1,37 @@
+.banner {
+    display: flex;
+    height: 50dvh;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 11px 0px #CFCC98;
+
+}
+
+.banner__content {
+    position: relative;
+    padding: 2rem;
+    color: var(--secondary-text-color);
+    text-align: center;
+    z-index: 1;
+}
+
+.banner__content .btn.banner__button {
+    width: 50%;
+
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/banner/small/Radiocassette_mcqnkw_c_scale_w_376.jpg');
+    background-size: 50dvh;
+    background-repeat: no-repeat;
+    opacity: .35;
+}
