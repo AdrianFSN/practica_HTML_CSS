@@ -35,3 +35,12 @@
     background-repeat: no-repeat;
     opacity: .35;
 }
+
+@media (width > 768px) {
+    .banner__image {
+        background-image: url('/images/banner/big/black/banner_c_scale-w_633.jpg');
+        background-size: 50dvh;
+        background-repeat: repeat;
+        opacity: .35;
+    }
+}
