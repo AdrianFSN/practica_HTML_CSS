@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡A ese! - Contacto</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/bio.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c5a026580.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__image">
+            <img src="/images/logos/Logo_A_Ese_Light.png" alt="Logo ¡A Ese!">
+        </div>
+        <nav class="header__nav hidden">
+            <ul class="header__nav__list">
+                <li class="header__nav__list__item">
+                    <a href="#">Bio</a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a href="#">Porfolio</a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a href="#">Banner</a>
+                </li>
+                <li class="header__nav__list__item btn">
+                    <a href=" #">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__contacto">
+        <section>
+            <div>
+                <h1>Contacto</h1>
+            </div>
+            <form method="post" action="/archivo">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" id="apellidos" placeholder="Tus apellidos" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="Teléfono" id="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                        placeholder="Formato: 000-000-000" required>
+                </div>
+                <fieldset>
+                    <legend>¿Cómo me has conocido?</legend>
+                    <label for="universidad">Universidad</label>
+                    <input type="radio" name="Me ha conocido por" id="universidad" value="universidad" checked>
+                    <label for="kokeepcoding">Kick-off de Keepcoding</label>
+                    <input type="radio" name="Me ha conocido por" id="kokeepcoding" value="keepcoding">
+                    <label for="colegio">Colegio</label>
+                    <input type="radio" name="Me ha conocido por" id="colegio" value="colegio">
+                    <label for="github">GitHub</label>
+                    <input type="radio" name="Me ha conocido por" id="github" value="github">
+
+                </fieldset>
+                <div>
+                    <label for="github-username">Nombre en GitHub</label>
+                    <input type="text" name="Usuario GitHub" id="github-username" pattern="^@[^\s]+"
+                        placeholder="@nombreusuario" required>
+                </div>
+                <div>
+                    <label for="mensaje">Deja tu mensaje</label>
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10" maxlength="180" placeholder="Tu mensaje"
+                        required></textarea>
+                </div>
+                <div>
+                    <label for="newsletter">Recibir información sobre mis proyectos</label>
+                    <input type="checkbox" name="Newsletter" id="newsletter" value="selected" checked>
+                </div>
+                <div>
+                    <input type="reset" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__section footer__logos">
+            <figure class="footer__brand__logo">
+                <img src="../images/logos/Logo_A_Ese_Light.png" alt="logo ¡A Ese!">
+            </figure>
+            <nav>
+
+                <ul class="social__icons">
+                    <li class="footer__social__icon__item">
+                        <a href="https://www.linkedin.com/in/adriansotes/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="footer__social__icon__item">
+                        <a href="https://www.instagram.com/los_creacionistas/?igsh=MTJyM3Q5ZzkyY2cxbg%3D%3D"
+                            target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+        <section class="footer__section">
+            <div class="footer__copyright">
+                <p>
+                    2024 - Todos los derechos reservados.
+                </p>
+            </div>
+
+        </section>
+
+    </footer>
+</body>
+
+</html>

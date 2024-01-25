@@ -25,12 +25,6 @@
     padding: 2rem;
 }
 
-.main .main__section__bio .main__info__bio h1 {
-    margin: 0;
-    background: var(--main-brand-color);
-    padding-right: 2rem;
-    text-align: right;
-}
 
 .main .main__section__bio .main__info__picture {
     background: rgba(0, 0, 0, 0.95);
@@ -48,14 +42,14 @@
 
 .main .main__section__skills {
     background: var(--main-brand-color);
-    margin: 0;
     padding: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 0;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .main .main__section__skills .main__section__skills__container {

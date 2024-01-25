@@ -55,12 +55,6 @@
 }
 
 
-.porfolio__main .porfolio__grid h1 {
-    background: var(--main-brand-color);
-    text-align: right;
-    padding-right: 1rem;
-}
-
 .porfolio__grid__panel__item__list {
     display: grid;
     list-style: none;

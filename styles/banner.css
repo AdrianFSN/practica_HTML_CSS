@@ -43,4 +43,35 @@
         background-repeat: repeat;
         opacity: .35;
     }
+
+    .banner {
+        height: 50dvh;
+    }
+}
+
+@media (width > 1024px) {
+    .banner__image {
+        background-image: url('/images/banner/big/black/banner_c_scale-w_913.jpg');
+        background-size: 50dvh;
+        background-repeat: repeat;
+        opacity: .35;
+    }
+
+    .banner {
+        height: 70dvh;
+    }
+}
+
+@media (width > 1440px) {
+    .banner__image {
+
+        background-image: url('/images/banner/big/black/banner_c_scale-w_1390.jpg');
+        background-size: 50dvh;
+        background-repeat: repeat;
+        opacity: .35;
+    }
+
+    .banner {
+        height: 70dvh;
+    }
 }
