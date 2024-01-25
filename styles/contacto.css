@@ -1,3 +1,53 @@
 .main__contacto {
     background: var(--body-color);
 }
+
+.formulario {
+    display: block;
+}
+
+.formulario .formulario__campo {
+    display: flex;
+    flex-direction: column;
+    /*     justify-content: flex-start;
+    align-content: center; */
+    padding: 2rem;
+    padding-bottom: 0rem;
+    margin: 0;
+    gap: 1rem;
+    max-width: 300px;
+}
+
+.formulario__fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* .formulario__fieldset legend {
+    text-align: center;
+} */
+
+.formulario__radio__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+
+}
+
+.formulario__suscribir {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    margin: 0;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+}
