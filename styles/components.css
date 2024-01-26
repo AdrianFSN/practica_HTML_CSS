@@ -14,6 +14,109 @@
     color: var(--main-text-color);
     text-decoration: none;
     font-weight: bolder;
+    border: none;
     border-radius: 3px;
     padding: 1rem;
+}
+
+.formulario {
+    display: block;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.formulario .formulario__campo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 0 2rem;
+    margin: 0;
+}
+
+.formulario__fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem 2rem 1rem;
+    border-radius: 3px;
+}
+
+.formulario__fieldset h3 {
+    margin: .8rem;
+}
+
+
+.formulario__radio__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: var(--main-brand-color);
+    color: var(--main-brand-color);
+}
+
+.formulario__suscribir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin: 0;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.formulario__input {
+    padding: 1rem;
+    background: var(--main-brand-color);
+    color: var(--secondary-text-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.formulario__input::placeholder {
+    color: var(--secondary-text-color);
+}
+
+.formulario__campo.formulario__botones {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+    /* gap: 2rem; */
+
+}
+
+.btn.formulario__btn__clear {
+    background-color: transparent;
+    border: 2px solid var(--main-text-color);
+    transition: background-color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+}
+
+.btn.formulario__btn__submit {
+    background-color: transparent;
+    border: 2px solid var(--main-brand-color);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: var(--main-brand-color);
+    transition: background-color 1.3s ease-in-out;
+    transition: color 1s ease-in-out;
+}
+
+@media (hover: hover) {
+    .btn.formulario__btn__clear:hover {
+        background-color: var(--main-text-color);
+        color: var(--secondary-text-color);
+    }
+
+    .btn.formulario__btn__submit:hover {
+        background-color: var(--main-brand-color);
+        color: var(--main-text-color);
+    }
 }

@@ -65,7 +65,7 @@
                         <h3>Teléfono</h3>
                     </label>
                     <input class="formulario__input" type="tel" name="Teléfono" id="telefono"
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Formato: 000-000-000" required>
+                        pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="Formato: 000 000 000" required>
                 </div>
                 <fieldset class="formulario__fieldset">
                     <legend>
@@ -109,9 +109,9 @@
                     </label>
                     <input type="checkbox" name="Newsletter" id="newsletter" value="selected" checked>
                 </div>
-                <div>
-                    <input class="btn" type="reset" value="Resetear">
-                    <input class="btn" type="submit" value="Enviar">
+                <div class=" formulario__campo formulario__botones">
+                    <input class="btn formulario__btn__clear" type="reset" value="LIMPIAR CAMPOS">
+                    <input class="btn formulario__btn__submit" type="submit" value="ENVIAR">
                 </div>
             </form>
 
