@@ -24,6 +24,15 @@
     margin-top: 3rem;
 }
 
+.btn.banner__button:hover {
+    background-color: var(--secondary-text-color);
+    color: var(--main-text-color);
+}
+
+.btn.banner__button a:hover {
+    color: var(--main-text-color);
+}
+
 .banner__image {
     position: absolute;
     top: 0;

@@ -17,6 +17,15 @@
     border: none;
     border-radius: 3px;
     padding: 1rem;
+    transition: background-color .7s linear, color .7s linear;
+
+}
+
+@media (hover: hover) {
+    .btn:hover {
+        background-color: var(--main-text-color);
+        color: var(--secondary-text-color);
+    }
 }
 
 .formulario {
@@ -114,34 +123,43 @@ input[type="checkbox"] {
 
 }
 
-.btn.formulario__btn__clear {
+.formulario__btn__clear {
     background-color: transparent;
     border: 2px solid var(--main-text-color);
-    transition: background-color 1s ease-in-out;
-    transition: color 1s ease-in-out;
+    transition: color .7s linear, background-color .7s linear;
 }
 
-.btn.formulario__btn__submit {
+.formulario__btn__submit {
     background-color: transparent;
     border: 2px solid var(--main-brand-color);
     padding-left: 3rem;
     padding-right: 3rem;
     color: var(--main-brand-color);
-    transition: background-color 1.3s ease-in-out;
-    transition: color 1s ease-in-out;
+    transition: color .7s linear, background-color .7s linear;
 }
 
 @media (hover: hover) {
-    .btn.formulario__btn__clear:hover {
-        background-color: var(--main-text-color);
+    .formulario__btn__clear:hover {
         color: var(--secondary-text-color);
+        background-color: var(--main-text-color);
     }
 
-    .btn.formulario__btn__submit:hover {
-        background-color: var(--main-brand-color);
+    .formulario__btn__submit:hover {
         color: var(--main-text-color);
+        background-color: var(--main-brand-color);
     }
 }
+
+.formulario__campo.formulario__botones {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+    /* justify-content: space-between; */
+    gap: 1rem;
+
+}
+
+
 
 @media (width > 768px) {
     .formulario {
@@ -153,7 +171,7 @@ input[type="checkbox"] {
     .formulario__organize__meet__message {
         display: flex;
         justify-content: space-around;
-        align-items: start;
+        align-items: flex-start;
 
     }
 
@@ -186,15 +204,4 @@ input[type="checkbox"] {
         margin-top: .8rem;
 
     }
-}
-
-
-
-.formulario__campo.formulario__botones {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 5rem;
-    /* justify-content: space-between; */
-    gap: 1rem;
-
 }

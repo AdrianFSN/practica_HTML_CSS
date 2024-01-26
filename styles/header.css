@@ -41,7 +41,7 @@
     gap: 30px;
 }
 
-.header .header__nav .header__nav__list .header__nav__list__item a {
-    color: var(--main-text-color);
-    text-decoration: none;
+.header__nav__list__item.btn a:hover {
+    color: var(--secondary-text-color);
+
 }
