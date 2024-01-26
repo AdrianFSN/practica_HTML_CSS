@@ -9,12 +9,8 @@
 .formulario .formulario__campo {
     display: flex;
     flex-direction: column;
-    /*     justify-content: flex-start;
-    align-content: center; */
-    padding: 2rem;
-    padding-bottom: 0rem;
+    padding: 0 2rem 0 2rem;
     margin: 0;
-    gap: 1rem;
     max-width: 300px;
 }
 
@@ -22,14 +18,18 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin-top: 2rem;
+    margin: 2rem 1rem 1rem;
+    border-radius: 3px;
+    /* margin-top: 2rem;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1rem; */
 }
 
-/* .formulario__fieldset legend {
-    text-align: center;
-} */
+.formulario__fieldset h3 {
+
+    margin: .8rem;
+}
+
 
 .formulario__radio__buttons {
     display: flex;
@@ -39,15 +39,31 @@
 
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: var(--main-brand-color);
+    color: var(--main-brand-color);
+}
+
 .formulario__suscribir {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
     align-items: center;
-    padding: 2rem;
-    padding-bottom: 0rem;
+    padding: 0 2rem 0 2rem;
     margin: 0;
     gap: 1rem;
     margin-bottom: 2rem;
 
+}
+
+.formulario__input {
+    padding: 1rem;
+    background: var(--main-brand-color);
+    color: var(--secondary-text-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.formulario__input::placeholder {
+    color: var(--secondary-text-color);
 }
