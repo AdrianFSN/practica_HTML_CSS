@@ -150,10 +150,23 @@ input[type="checkbox"] {
         align-items: center;
     }
 
+    .formulario__organize__meet__message {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+
+    }
+
+    .formulario__organize__meet__message h3 {
+        font-size: 1.8rem;
+    }
+
     .formulario__fieldset.formulario__grid__extend,
     .formulario__campo.formulario__grid__extend,
     .formulario__suscribir.formulario__grid__extend,
-    .formulario__items__pairs.formulario__grid__extend {
+    .formulario__items__pairs.formulario__grid__extend,
+    .formulario__organize__meet__message.formulario__grid__extend,
+    .formulario__campo.formulario__botones.formulario__grid__extend {
         grid-column: span 2;
     }
 
@@ -162,6 +175,11 @@ input[type="checkbox"] {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .formulario__campo.formulario__botones.formulario__grid__extend {
+        justify-content: center;
+        text-align: center;
     }
 
     .formulario__even__label h4 {
@@ -179,5 +197,4 @@ input[type="checkbox"] {
     /* justify-content: space-between; */
     gap: 1rem;
 
-}
 }

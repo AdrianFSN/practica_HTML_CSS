@@ -84,45 +84,49 @@
                             pattern="^@[^\s]+" placeholder="@nombreusuario" required>
                     </div>
                 </fieldset>
-                <fieldset class="formulario__fieldset formulario__grid__extend">
-                    <legend>
-                        <h3>¿Cómo me has conocido?</h3>
-                    </legend>
-                    <div class="formulario__radio__buttons">
-                        <input type="radio" name="Me ha conocido por" id="universidad" value="universidad" checked>
-                        <label for="universidad">Universidad</label>
-                    </div>
-                    <div class="formulario__radio__buttons">
-                        <input type="radio" name="Me ha conocido por" id="kokeepcoding" value="keepcoding">
-                        <label for="kokeepcoding">Kick-off de Keepcoding</label>
-                    </div>
-                    <div class="formulario__radio__buttons">
-                        <input type="radio" name="Me ha conocido por" id="colegio" value="colegio">
-                        <label for="colegio">Colegio</label>
-                    </div>
-                    <div class="formulario__radio__buttons">
-                        <input type="radio" name="Me ha conocido por" id="github" value="github">
-                        <label for="github">GitHub</label>
-                    </div>
+                <!--Campo conocido-->
+                <div class="formulario__organize__meet__message formulario__grid__extend">
+                    <fieldset class="formulario__fieldset formulario__grid__extend">
+                        <legend>
+                            <h3>¿Cómo me has conocido?</h3>
+                        </legend>
+                        <div class="formulario__radio__buttons">
+                            <input type="radio" name="Me ha conocido por" id="universidad" value="universidad" checked>
+                            <label for="universidad">Universidad</label>
+                        </div>
+                        <div class="formulario__radio__buttons">
+                            <input type="radio" name="Me ha conocido por" id="kokeepcoding" value="keepcoding">
+                            <label for="kokeepcoding">Kick-off de Keepcoding</label>
+                        </div>
+                        <div class="formulario__radio__buttons">
+                            <input type="radio" name="Me ha conocido por" id="colegio" value="colegio">
+                            <label for="colegio">Colegio</label>
+                        </div>
+                        <div class="formulario__radio__buttons">
+                            <input type="radio" name="Me ha conocido por" id="github" value="github">
+                            <label for="github">GitHub</label>
+                        </div>
 
-                </fieldset>
+                    </fieldset>
 
-                <fieldset class="formulario__fieldset formulario__campo formulario__grid__extend">
-                    <legend>
-                        <h4>Deja tu mensaje</h4>
-                    </legend>
-                    <label for="mensaje">
-                    </label>
-                    <textarea class="formulario__textarea" name="Mensaje" id="mensaje" cols="30" rows="10"
-                        maxlength="180" placeholder="Escribe tu mensaje aquí" required></textarea>
-                </fieldset>
+                    <fieldset class="formulario__fieldset formulario__campo formulario__grid__extend">
+                        <legend>
+                            <h3>Deja tu mensaje</h3>
+                        </legend>
+                        <label for="mensaje">
+                        </label>
+                        <textarea class="formulario__textarea" name="Mensaje" id="mensaje" cols="30" rows="10"
+                            maxlength="180" placeholder="Escribe tu mensaje aquí" required></textarea>
+                    </fieldset>
+                </div>
+                <!--fin campo mensaje-->
                 <div class="formulario__suscribir formulario__grid__extend">
                     <label for="newsletter">
                         <h4>Recibir noticias</h4>
                     </label>
                     <input type="checkbox" name="Newsletter" id="newsletter" value="selected" checked>
                 </div>
-                <div class=" formulario__campo formulario__botones">
+                <div class=" formulario__campo formulario__botones formulario__grid__extend">
                     <input class="btn formulario__btn__clear" type="reset" value="LIMPIAR CAMPOS">
                     <input class="btn formulario__btn__submit" type="submit" value="ENVIAR">
                 </div>
