@@ -46,38 +46,44 @@
                 <h1>Contacto</h1>
             </div>
             <form class="formulario" method="post" action="/archivo">
-                <div class="formulario__items__pairs formulario__grid__extend">
+                <fieldset class="formulario__fieldset formulario__items__pairs formulario__grid__extend">
+                    <legend>
+                        <h3>Cómo te llamas</h3>
+                    </legend>
                     <div class="formulario__campo formulario__grid__extend">
                         <label for="nombre">
-                            <h3>Nombre</h3>
+                            <h4>Nombre</h4>
                         </label>
                         <input class="formulario__input" type="text" name="Nombre" id="nombre" placeholder="Tu nombre"
                             required>
                     </div>
                     <div class="formulario__campo">
-                        <label for="apellidos">
-                            <h3>Apellidos</h3>
+                        <label class="formulario__even__label" for="apellidos">
+                            <h4>Apellidos</h4>
                         </label>
                         <input class="formulario__input" type="text" name="Apellidos" id="apellidos"
                             placeholder="Tus apellidos" required>
                     </div>
-                </div>
-                <div class="formulario__items__pairs formulario__grid__extend">
+                </fieldset>
+                <fieldset class=" formulario__fieldset formulario__grid__extend">
+                    <legend>
+                        <h3>Cómo encontrarte</h3>
+                    </legend>
                     <div class="formulario__campo">
                         <label for="telefono">
-                            <h3>Teléfono</h3>
+                            <h4>Teléfono</h4>
                         </label>
                         <input class="formulario__input" type="tel" name="Teléfono" id="telefono"
                             pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="Formato: 000 000 000" required>
                     </div>
                     <div class="formulario__campo">
-                        <label for="github-username">
-                            <h3>Nombre en GitHub</h3>
+                        <label class="formulario__even__label" for="github-username">
+                            <h4>Nombre en GitHub</h4>
                         </label>
                         <input class="formulario__input" type="text" name="Usuario GitHub" id="github-username"
                             pattern="^@[^\s]+" placeholder="@nombreusuario" required>
                     </div>
-                </div>
+                </fieldset>
                 <fieldset class="formulario__fieldset formulario__grid__extend">
                     <legend>
                         <h3>¿Cómo me has conocido?</h3>
@@ -101,16 +107,18 @@
 
                 </fieldset>
 
-                <div class="formulario__campo formulario__grid__extend">
+                <fieldset class="formulario__fieldset" class="formulario__campo formulario__grid__extend">
+                    <legend>
+                        <h4>Deja tu mensaje</h4>
+                    </legend>
                     <label for="mensaje">
-                        <h3>Deja tu mensaje</h3>
                     </label>
-                    <textarea class="formulario__input" name="Mensaje" id="mensaje" cols="30" rows="10" maxlength="180"
-                        placeholder="Tu mensaje" required></textarea>
-                </div>
+                    <textarea class="formulario__textarea" name="Mensaje" id="mensaje" cols="30" rows="10"
+                        maxlength="180" placeholder="Escribe tu mensaje aquí" required></textarea>
+                </fieldset>
                 <div class="formulario__suscribir formulario__grid__extend">
                     <label for="newsletter">
-                        <h3>Recibir noticias</h3>
+                        <h4>Recibir noticias</h4>
                     </label>
                     <input type="checkbox" name="Newsletter" id="newsletter" value="selected" checked>
                 </div>

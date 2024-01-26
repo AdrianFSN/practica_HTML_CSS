@@ -41,8 +41,13 @@
     border-radius: 3px;
 }
 
-.formulario__fieldset h3 {
+.formulario__fieldset h3,
+.formulario__fieldset h4 {
     margin: .8rem;
+}
+
+.formulario__even__label h4 {
+    margin-top: 2rem;
 }
 
 
@@ -60,14 +65,16 @@ input[type="checkbox"] {
     color: var(--main-brand-color);
 }
 
+
 .formulario__suscribir {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 0 2rem 0 2rem;
     margin: 0;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -77,6 +84,15 @@ input[type="checkbox"] {
     color: var(--secondary-text-color);
     border: none;
     border-radius: 3px;
+}
+
+.formulario__textarea {
+    padding: 1rem;
+    background: var(--body-color);
+    border: 1px dotted var(--main-brand-color);
+    color: var(--main-text-color);
+    border-radius: 3px;
+
 }
 
 .formulario__input::placeholder {
