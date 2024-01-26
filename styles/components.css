@@ -120,3 +120,33 @@ input[type="checkbox"] {
         color: var(--main-text-color);
     }
 }
+
+@media (width > 768px) {
+    .formulario {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .formulario__items__pairs {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .formulario__fieldset.formulario__grid__extend,
+    .formulario__campo.formulario__grid__extend,
+    .formulario__suscribir.formulario__grid__extend,
+    .formulario__items__pairs.formulario__grid__extend {
+        grid-column: span 2;
+    }
+
+    .formulario__campo.formulario__botones {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 5rem;
+        /* justify-content: space-between; */
+        gap: 1rem;
+
+    }
+}
