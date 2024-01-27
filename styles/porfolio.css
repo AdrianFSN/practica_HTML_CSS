@@ -64,6 +64,10 @@
     margin-bottom: 0;
 }
 
+.porfolio__grid__panel__item__list li {
+    margin-top: 3rem;
+}
+
 .porfolio__item__picture {
     display: block;
     margin: 0 auto;
@@ -74,7 +78,23 @@
 .porfolio__grid__panel__item__list img {
     width: 100%;
     border-radius: 3px;
+
 }
+
+.porfolio__grid__panel__item__list img:hover {
+    transition: border-right .5s ease-in-out;
+
+}
+
+@media (hover :hover) {
+    .porfolio__grid__panel__item__list img:hover {
+        border-right: 1rem solid var(--main-brand-color);
+
+    }
+
+}
+
+
 
 
 .porfolio__img__caption {
