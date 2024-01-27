@@ -22,7 +22,7 @@ He limitado el tamaño de la foto más grande que se puede mostrar para cada dis
 [ResPo]: https://www.responsivebreakpoints.com/
 
 ## Header
-En la versión móvil, el logo se sitúa en el centro y los enlaces desaparecen. En el futuro, me gustaría poner un menú hanburguesa debajo del logo.
+En la versión móvil, el logo se sitúa en el centro y los enlaces desaparecen. En el futuro, me gustaría poner un menú hanburguesa debajo del logo, que está enlazado con la página **Bio**.
 
 Al pasar a 768 px, aparecen los **enlaces**. El hover de todos ellos está suavizado con una transición para el color de la fuente y una animación para el borde inferior de la caja que los contiene. Los enlaces **Bio** y **Banner** tienen un ancla para llevar la vista a su sección correspondiente. El scroll que lleva hasta ellos también está suavizado.
 
@@ -53,6 +53,8 @@ Al pasar de móvil a pantallas más amplias, el formulario deja de ser un <i>blo
 
 ## Footer
 Los iconos sociales los obtuve en [Font Awesome][FoAw]. Están enlazados a mi Linkedin y mi Instagram (este último hace siglos que no lo uso).
+
+El logo está enlazado con la página **Bio**.
 
 [FoAw]: https://fontawesome.com/
 

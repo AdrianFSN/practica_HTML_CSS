@@ -21,7 +21,8 @@
     width: 100%;
 }
 
-.header__image a {
+.header__image a,
+.footer__section.footer__logos a {
     padding: 0;
 }
 
@@ -59,6 +60,7 @@
 
 }
 
+
 @media (width > 768px) {
     .header {
         background-color: var(--bg-color);
@@ -80,21 +82,10 @@
 }
 
 @media (width > 1024px) {
-    /*     .header {
-        background-color: var(--bg-color);
-        height: 5dvh;
-    } */
+
 
     .header .header__image {
         max-width: 20%;
         margin: 0;
     }
-
-    /*     .header__image a {
-        padding: 1rem;
-    }
-
-    .header .header__image img {
-        width: 60%;
-    } */
 }
