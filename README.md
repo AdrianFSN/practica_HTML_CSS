@@ -34,7 +34,7 @@ Con texto de introducción y barras para ilustrar las habilidades. Es posible qu
 Esta página también lleva incrustado el **banner**. La imagen de fondo es diferente para la versión móvil de la de tamaños superiores.
 
 ## Página Porfolio
-Comienza con un <i>fade-in</i> de un vídeo. Para reducir el tamaño de ese elemento, he utilizado [Online Convert][OConvert].
+Comienza con un <i>fade-in</i> de un vídeo en bucle. Para reducir el tamaño de ese elemento, he utilizado [Online Convert][OConvert].
 
 El vídeo es cuadrado, por lo que en el móvil ocupa toda la pantalla. Para mejorar su aspecto en dispositivos más grandes, he creado un fondo con un gradiente. Es un efecto sutil, puesto que la mayor parte del gradiente queda por detrás del vídeo, haciendo un leve halo a su alrededor.
 
