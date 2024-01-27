@@ -2,7 +2,7 @@
 ##### Bootcamp Web Developer Full Stack
 
 ## Por dónde empezar
-La web no tiene por el momento una <i>home</i>, así que basta con ir a la carpeta <i>Vistas</i> y cargar uno de los archivos .html con Live Server.
+La web no tiene por el momento una <i>home</i>, así que **Bio.html** actúa como tal. Basta con cargarla con Live Server. También ir a la carpeta <i>Vistas</i> y cargar uno de los archivos .html de la misma forma. No he sido capaz de publicarla en GitHub. Sólo se me publica el archivo Readme.
 
 ## Mobile first y media queries
 El proyecto está pensado <i> mobile first</i>, construido a partir de un tamaño de dispositivo de 425 px. Al no tener menú hamburguesa todavía para la versión móvil, tendrás que ampliar a una vista de al menos 768 px para poder navegar desde el inspector. Si no, puedes abrir con Live Server los tres archivos .html disponibles.
