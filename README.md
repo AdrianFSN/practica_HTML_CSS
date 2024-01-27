@@ -2,7 +2,7 @@
 ##### Bootcamp Web Developer Full Stack
 
 ## Por dónde empezar
-La web no tiene por el momento una <i>home</i>, así que **Bio.html** actúa como tal. Basta con cargarla con Live Server. También ir a la carpeta <i>Vistas</i> y cargar uno de los archivos .html de la misma forma. No he sido capaz de publicarla en GitHub. Sólo se me publica el archivo Readme.
+La web no tiene por el momento una <i>home</i>, así que  **Bio** actúa como tal a través del archivo **index.html**. Basta con  ir a la carpeta <i>Vistas</i> y cargar la página. O abrir cualquiera de los otros dos archivos .html de la misma forma.
 
 ## Mobile first y media queries
 El proyecto está pensado <i> mobile first</i>, construido a partir de un tamaño de dispositivo de 425 px. Al no tener menú hamburguesa todavía para la versión móvil, tendrás que ampliar a una vista de al menos 768 px para poder navegar desde el inspector. Si no, puedes abrir con Live Server los tres archivos .html disponibles.
@@ -22,13 +22,13 @@ He limitado el tamaño de la foto más grande que se puede mostrar para cada dis
 [ResPo]: https://www.responsivebreakpoints.com/
 
 ## Header
-En la versión móvil, el logo se sitúa en el centro y los enlaces desaparecen. En el futuro, me gustaría poner un menú hanburguesa debajo del logo, que está enlazado con la página **Bio**.
+En la versión móvil, el logo se sitúa en el centro y los enlaces desaparecen. En el futuro, me gustaría poner un menú hanburguesa debajo del logo, que está enlazado con la página **Bio (index)**.
 
-Al pasar a 768 px, aparecen los **enlaces**. El hover de todos ellos está suavizado con una transición para el color de la fuente y una animación para el borde inferior de la caja que los contiene. Los enlaces **Bio** y **Banner** tienen un ancla para llevar la vista a su sección correspondiente. El scroll que lleva hasta ellos también está suavizado.
+Al pasar a 768 px, aparecen los **enlaces**. El hover de todos ellos está suavizado con una transición para el color de la fuente y una animación para el borde inferior de la caja que los contiene. Los enlaces **Bio (solo cuando clicamos desde la propia página index)** y **Banner** tienen un ancla para llevar la vista a su sección correspondiente. El scroll que lleva hasta ellos también está suavizado.
 
 El **botón** también tiene una transición suave tanto del fondo como del texto.
 
-## Página Bio
+## Página Bio (index)
 Con texto de introducción y barras para ilustrar las habilidades. Es posible que tengas que recargar la página para ver las barras moverse.
 
 Esta página también lleva incrustado el **banner**. La imagen de fondo es diferente para la versión móvil de la de tamaños superiores.
@@ -54,7 +54,7 @@ Al pasar de móvil a pantallas más amplias, el formulario deja de ser un <i>blo
 ## Footer
 Los iconos sociales los obtuve en [Font Awesome][FoAw]. Están enlazados a mi Linkedin y mi Instagram (este último hace siglos que no lo uso).
 
-El logo está enlazado con la página **Bio**.
+El logo está enlazado con la página **Bio (index)**.
 
 [FoAw]: https://fontawesome.com/
 
