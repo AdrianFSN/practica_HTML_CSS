@@ -126,6 +126,7 @@ input[type="checkbox"] {
 .formulario__btn__clear {
     background-color: transparent;
     border: 2px solid var(--main-text-color);
+    cursor: pointer;
     transition: color .7s linear, background-color .7s linear;
 }
 
@@ -135,6 +136,7 @@ input[type="checkbox"] {
     padding-left: 3rem;
     padding-right: 3rem;
     color: var(--main-brand-color);
+    cursor: pointer;
     transition: color .7s linear, background-color .7s linear;
 }
 

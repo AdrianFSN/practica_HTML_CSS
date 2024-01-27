@@ -21,21 +21,21 @@
 <body>
     <header class="header">
         <div class="header__image">
-            <img src="/images/logos/Logo_A_Ese_Light.png" alt="Logo ¡A Ese!">
+            <a href="/vistas/bio.html"><img src="/images/logos/Logo_A_Ese_Light.png" alt="Logo ¡A Ese!"></a>
         </div>
         <nav class="header__nav hidden">
             <ul class="header__nav__list">
                 <li class="header__nav__list__item">
-                    <a href="/vistas/bio.html">Bio</a>
+                    <a class="header__link" href="/vistas/bio.html">Bio</a>
                 </li>
                 <li class="header__nav__list__item">
-                    <a href="/vistas/porfolio.html">Porfolio</a>
+                    <a class="header__link" href="/vistas/porfolio.html">Porfolio</a>
                 </li>
                 <li class="header__nav__list__item">
-                    <a href="/vistas/bio.html#banner">Banner</a>
+                    <a class="header__link" href="/vistas/bio.html#banner">Banner</a>
                 </li>
-                <li class="header__nav__list__item btn">
-                    <a href="/vistas/contacto.html">CONTACTO</a>
+                <li class="header__nav__list__item">
+                    <a class="btn" href="/vistas/contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -127,8 +127,8 @@
                     <input type="checkbox" name="Newsletter" id="newsletter" value="selected" checked>
                 </div>
                 <div class=" formulario__campo formulario__botones formulario__grid__extend">
-                    <input class="btn formulario__btn__clear" type="reset" value="LIMPIAR CAMPOS">
-                    <input class="btn formulario__btn__submit" type="submit" value="ENVIAR">
+                    <input type="reset" class="btn formulario__btn__clear" value="LIMPIAR CAMPOS">
+                    <input type="submit" class="btn formulario__btn__submit" value="ENVIAR">
                 </div>
             </form>
 
