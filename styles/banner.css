@@ -37,7 +37,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/banner/small/Radiocassette_mcqnkw_c_scale_w_376.jpg');
+    background-image: url('./images/banner/small/Radiocassette_mcqnkw_c_scale_w_376.jpg');
     background-size: 50dvh;
     background-repeat: no-repeat;
     opacity: .35;
@@ -45,7 +45,7 @@
 
 @media (width > 768px) {
     .banner__image {
-        background-image: url('../images/banner/big/black/banner_c_scale-w_633.jpg');
+        background-image: url('./images/banner/big/black/banner_c_scale-w_633.jpg');
         background-size: 60dvh;
         background-repeat: repeat;
         opacity: .35;
