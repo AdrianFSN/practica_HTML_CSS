@@ -44,7 +44,6 @@
 .formulario__fieldset {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     justify-content: center;
     text-align: center;
     margin: 2rem 2rem 1rem;
@@ -117,7 +116,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: row;
     padding-bottom: 5rem;
-    justify-content: space-between;
+    justify-content: center;
     /* gap: 2rem; */
 
 }
