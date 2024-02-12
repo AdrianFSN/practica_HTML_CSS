@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     height: 10dvh;
     position: sticky;
     top: 0;
@@ -7,9 +7,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 1rem;
+    padding: 2rem;
     box-shadow: 0px 0px 11px 0px #CFCC98;
-    z-index: 2;
+    z-index: 5;
 }
 
 .header .header__image {
@@ -18,6 +18,7 @@
 }
 
 .header .header__image img {
+
     width: 100%;
 }
 
@@ -26,7 +27,7 @@
     padding: 0;
 }
 
-.header .hamburguesa {
+.hamburguesa {
     background-color: var(--bg-color);
     color: var(--main-text-color);
     font-size: 2rem;
@@ -36,17 +37,35 @@
 
 .header .header__nav {
     display: none;
+    position: absolute;
+    top: 14rem;
+    left: 0;
+    box-shadow: 0px 0px 11px 0px #CFCC98;
 }
+
 
 #hamburguesa__mostrar__menu {
     display: none;
+
 }
 
+
 #hamburguesa__mostrar__menu:checked~.header__nav {
-    background-color: var(--bg-color);
+    background-color: var(--body-color);
     display: flex;
     flex-direction: column;
     width: 100%;
+    animation: mostrar__lista__hamburguesa .5s ease-in-out;
+}
+
+@keyframes mostrar__lista__hamburguesa {
+    0% {
+        left: -40rem;
+    }
+
+    100% {
+        left: 0;
+    }
 }
 
 .header .header__nav .header__nav__list {
@@ -108,7 +127,10 @@
     }
 
     .header .header__nav {
-        display: block;
+        display: flex;
+        position: relative;
+        top: 0;
+        justify-items: space-between;
 
     }
 
@@ -119,7 +141,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
+        padding: 0;
         gap: 30px;
     }
 
