@@ -131,6 +131,7 @@
         position: relative;
         top: 0;
         justify-items: space-between;
+        box-shadow: none;
 
     }
 
