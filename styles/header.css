@@ -51,12 +51,12 @@
 
 #hamburguesa__mostrar__menu:checked+.hamburguesa .fa-xmark::before {
     display: block;
-    animation: rotar__elemento 1s ease-in-out;
+    animation: rotar__elemento .5s ease-in-out;
 }
 
 @keyframes rotar__elemento {
     100% {
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
 }
 
