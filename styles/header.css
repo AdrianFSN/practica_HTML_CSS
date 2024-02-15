@@ -26,6 +26,9 @@
 }
 
 .hamburguesa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--bg-color);
     color: var(--main-text-color);
     font-size: 2rem;
@@ -35,10 +38,9 @@
 
 .fa-bars::before {
     display: block;
-    width: 100%;
 }
 
-.fa-xmark {
+.fa-xmark::before {
     display: none;
 }
 
@@ -46,7 +48,7 @@
     display: none;
 }
 
-#hamburguesa__mostrar__menu:checked+.hamburguesa .fa-xmark {
+#hamburguesa__mostrar__menu:checked+.hamburguesa .fa-xmark::before {
     display: block;
 }
 
