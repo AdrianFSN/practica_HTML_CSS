@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    /* box-shadow: 0px 0px 11px 0px #CFCC98; */
+    box-shadow: 0px 0px 11px 0px #CFCC98;
     z-index: 5;
 }
 
@@ -51,6 +51,13 @@
 
 #hamburguesa__mostrar__menu:checked+.hamburguesa .fa-xmark::before {
     display: block;
+    animation: rotar__elemento 1s ease-in-out;
+}
+
+@keyframes rotar__elemento {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #hamburguesa__mostrar__menu {
