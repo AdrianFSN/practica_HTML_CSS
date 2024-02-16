@@ -108,6 +108,8 @@
 
 @media (width > 768px) {
     .porfolio .porfolio__intro__video .video__small {
+        padding: 2rem;
+        border-radius: 2.5rem;
         width: 70%;
     }
 
@@ -115,12 +117,13 @@
         display: block;
         margin: 0 auto;
         width: 72%;
-
     }
 }
 
 @media (width > 1024px) {
     .porfolio .porfolio__intro__video .video__small {
+        padding: 2rem;
+        border-radius: 2.5rem;
         width: 55%;
     }
 
@@ -144,7 +147,8 @@
 @media (width > 1440px) {
     .porfolio .porfolio__intro__video .video__small {
         display: block;
-        padding: 0;
+        padding: 2rem;
+        border-radius: 2.5rem;
         margin-bottom: 0;
         margin: 0 auto;
         width: 35%;

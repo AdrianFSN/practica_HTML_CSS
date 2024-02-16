@@ -209,6 +209,9 @@
 
 
 @media (width > 768px) {
+    .main .main__section__bio {
+        text-align: left;
+    }
 
     .main .main__section__bio .main__info__picture {
         display: block;
